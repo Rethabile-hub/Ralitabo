@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaunchPad | Contact / Investors</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">TheraPreneur</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about startup.html">About Startup</a>
+        <a href="services.html">Product/Services</a>
+        <a href="model.html">Business Model</a>
+        <a href="contact.html">Contact/Investors</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-gap highlight">
+      <div class="container">
+        <h1>Contact & Clinical Investors</h1>
+        <p class="subheading">Entrepreneur therapy intake and VIP investor matchmaking, guided by coach-led diagnostics.</p>
+
+        <div class="contact-grid">
+          <article class="card-sm">
+            <h3>Investor Wellness</h3>
+            <p>invest@therapreneur.com</p>
+            <p>24h response for term review, mental model alignment, and cohort invite.</p>
+            <a class="btn btn-secondary" href="contact.html#investor">Request intro</a>
+          </article>
+          <article class="card-sm">
+            <h3>Founder Therapy</h3>
+            <p>rethabile@therapreneur.com<br>teboho@therapreneur.com</p>
+            <p>Personalized therapy for business burnout, strategic anxiety, and growth confidence.</p>
+            <a class="btn btn-secondary" href="about startup.html">Meet the team</a>
+          </article>
+          <article class="card-sm">
+            <h3>Clinic</h3>
+            <p>Maseru 100 Hapita, Lesotho</p>
+            <p>Open sessions: Mon-Fri 9:00–18:00 (remote options available)</p>
+            <a class="btn btn-secondary" href="#">Book session</a>
+          </article>
+        </div>
+
+        <div class="callout">
+          <h2>Investor Fast lane</h2>
+          <p>Share your investment thesis and portfolio preferences, and we’ll send a curated startup shortlist plus priority desk slot.</p>
+        </div>
+
+        <form id="contactForm" class="contact-form" aria-label="Contact form">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <input type="text" name="company" placeholder="Company / fund name" required />
+          <textarea name="message" rows="5" placeholder="Tell us your idea, priority, or question" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="formFeedback" class="small-note"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 TheraPreneur.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
